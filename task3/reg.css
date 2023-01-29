@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.heading{
+    text-align: center;
+    height: 60px;
+    font-size: xx-large;
+    background-color: aquamarine;
+}
+.reg form{
+    margin: 80px;
+    padding: 30px;
+    background-color: rgb(253, 255, 161);
+}
+.reg form .f1,.f2,.f3,.f4{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: inherit;
+    font-family: cursive;
+}
+.reg form .name, .email, .clgname, .img{
+    padding-right: 70px;
+}
+.reg form #name, #email, #clgname, #img{
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: large;
+    overflow: hidden; 
+}
+.reg form .f5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.reg form .gender{
+    font-size: larger;
+    font-family: cursive;
+}
+.reg form .checkbox{
+    font-size: large;
+}
+.reg form .f6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.reg form .skills{
+    font-size: larger;
+    font-family: cursive;
+}
+.reg form .skillbox{
+    font-size: large;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(69, 237, 69);
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(241, 127, 85);
+    border: none;
+    cursor: pointer;
+}
+
+.table{
+    margin: 40px;
+    padding: 40px;
+}
+td, th {
+    border: 1px solid rgb(104, 104, 104);
+    padding: 0.5rem;
+    padding-right: 20px;
+    text-align: center;
+}
+ 
+table {
+    border-collapse: collapse;
+}
+ 
+tbody tr:nth-child(odd) {
+    background: rgb(255, 212, 185);
+}
+caption {
+    font-size: 0.8rem;
+}
+
+.line{
+    left: 50%;
+    height: 600px;
+    border-left: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    margin-left: -3px;
+    top: 120px;
+}
